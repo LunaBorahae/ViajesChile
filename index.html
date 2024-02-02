@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <meta name="author" content="Prueba Viajes Chile Carolina">
+    <meta name="description" content="Pagina web agencia Viajes Chile">
+    <meta name="keywords" content="agencia, viajes, Chile">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <header>
+        <!-- Esta es una navbar de bootstrap-->
+        <nav class="navbar navbar-expand-lg bg-transparent px-5 px-lg-5 align-content-center">
+        <!-- Este es el lado izquierdo del navbar con imagen y texto-->
+        <div class="container-fluid">
+            <span class="navbar-text text-white">
+                <img src="./assets/img/viajes.svg" alt="Logo" width="30" height="30" class="mr-2"> Viajes Chile
+            </span>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <!-- Ahora el lado derecho del navbar con links-->
+          <div class="collapse navbar-collapse justify-content-end text-white" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="#Info">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="#destacados">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <!-- Este es un carosel de Boostrap Javascript-->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="Llamas">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="Moais">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="Pinguino">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Aquí la primera sección de mi main, la clase d-none d-sm-block hace que desaparezca en dispositivos xs-->
+        <section class="text-white p-4 px-3 px-md-4 d-none d-sm-block" style="background-color: black; text-align: center;" id="Info"><br>
+            <h2>¿QUIÉNES SOMOS?</h2><br>
+        <!-- Este es una sección de tarjetas boostrap, dentro están los 3 párrafos solicitados-->
+            <div class="card-group text-white">
+                <div class="card border-0">
+                  <div class="card-body" style="background-color: black;">
+        <!-- Aquí el color lo identifiqué con el cuentagotas de paint-->
+                    <h2 class="card-title" style="background-color:#0FC9F2;"><i class="fas fa-plane text-white"></i></h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                </div>
+                <div class="card border-0" style="background-color: black;">
+                  <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h2 class="card-title" style="background-color:#0FC9F2;"><i class="fas fa-mountain"></i></h2>
+                  </div>
+                </div>
+                <div class="card border-0" style="background-color: black;">
+                  <div class="card-body">
+                    <h2 class="card-title" style="background-color:#0FC9F2;"><i class="fas fa-route"></i></h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                </div>
+              </div>
+        </section>
+            
+        <section class="text-white p-4" style="background-color: black;" id="destacados">
+            <h2 style="text-align: center;">DESTACADOS</h2><br>
+            <!-- Aqui va Cards de bootstrap -->
+            <div class="row row-cols-1 row-cols-md-4 g-4 text-white p-4">
+                <div class="col-md-3">
+                  <div class="card h-100" style="background-color: #0FC9F2;">
+                    <img src="./assets/img/card1.jpg" class="card-img-top" alt="Vista1">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5><br>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card h-100" style="background-color: #0FC9F2;">
+                    <img src="./assets/img/card2.jpg" class="card-img-top" alt="Vista2">
+                    <div class="card-body">
+                        <h5 class="card-title">Consectetur adipiscing elit</h5><br>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card h-100" style="background-color: #0FC9F2;">
+                    <img src="./assets/img/card3.jpg" class="card-img-top" alt="Vista3">
+                    <div class="card-body">
+                        <h5 class="card-title">Sed do eiusmod tempor incididunt ut labore</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100" style="background-color: #0FC9F2;">
+                      <img src="./assets/img/card4.jpg" class="card-img-top" alt="Vista4">
+                      <div class="card-body">
+                        <h5 class="card-title">Ut enim ad minim veniam</h5><br>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <section class="text-white p-5" style="background-color: black;" id="contacto">
+            <h2 style="text-align: center;">CONTACTO</h2>
+            <!-- Aqui va un Form de bootstrap -->
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput2" class="form-label">Asunto</label>
+                <input type="subject" class="form-control" id="exampleFormControlInput2">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+            </div>
+            <!-- Y un botón Bootstrap Js tooltip-->
+            <button type="button" class="btn btn-info text-white" data-bs-toggle="tooltip" data-bs-placement="top" title="Presiona para enviar un correo">Enviar</button><br>
+        </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="left-text p-1">
+          <br><h4>VIAJES CHILE</h4>
+        </div>
+        <div class="right-icons fa-2x">
+          <i class="fab fa-github-square" id="miIcono1" style="cursor: pointer;"></i>
+          <i class="fab fa-linkedin" id="miIcono2" style="cursor: pointer;"></i>
+          <i class="fab fa-twitter-square" id="miIcono3" style="cursor: pointer;"></i>
+          <i class="fab fa-facebook-square" id="miIcono4" style="cursor: pointer;"></i>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/viajes.js"></script>
+</body>
+</html>

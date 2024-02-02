@@ -2,7 +2,7 @@
 desafío módulo 2 - Carolina Carmona
 
 
-DESARROLLO EN GIT
+DESARROLLO EN GIT Bash
 Carolina@DESKTOP-M7TFQVE MINGW64 /
 $ cd /D
 

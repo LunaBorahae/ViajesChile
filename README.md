@@ -1,6 +1,8 @@
 # ViajesChile
 desafío módulo 2 - Carolina Carmona
 
+
+DESARROLLO EN GIT
 Carolina@DESKTOP-M7TFQVE MINGW64 /
 $ cd /D
 
